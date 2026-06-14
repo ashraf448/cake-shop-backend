@@ -1,4 +1,5 @@
-
+import crypto from 'crypto';
+globalThis.crypto = crypto;
 import dotenv from 'dotenv';
 dotenv.config();
 
