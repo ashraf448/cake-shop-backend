@@ -1,4 +1,4 @@
-import OfferSettings from '../models/OfferSettings.js';
+import OfferSettings from '../models/Offersettings.js';
 
 // ─── GET (public) ─────────────────────────────────────────────────────────────
 export const getOfferSettings = async (req, res, next) => {
